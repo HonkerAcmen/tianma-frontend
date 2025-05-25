@@ -1,5 +1,5 @@
 <template>
-  <el-button>a</el-button>
+  <RouterView></RouterView>
 </template>
 
 <script setup></script>
