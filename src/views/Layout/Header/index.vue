@@ -33,8 +33,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #f4f4f4;
+  align-items: center;
+  height: 60px;
+  // background-color: #f4f4f4;
   padding: 5px 0;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: 0px 1px 2px #dddddd;
+
   .left {
     display: flex;
     flex-direction: row;
@@ -47,6 +52,7 @@
       justify-content: center;
       align-items: center;
       font-size: 24px;
+      cursor: pointer;
     }
   }
   .right {
